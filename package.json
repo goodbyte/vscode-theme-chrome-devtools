@@ -1,0 +1,42 @@
+{
+  "name": "uy-chrome-devtools-theme",
+  "displayName": "Chrome DevTools Theme",
+  "description": "Chrome DevTools inspired theme",
+  "publisher": "goodbyte",
+  "author": {
+    "name": "José Guerra"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodbyte/vscode-theme-chrome-devtools"
+  },
+  "bugs": {
+    "url": "https://github.com/goodbyte/vscode-theme-chrome-devtools/issues"
+  },
+  "version": "1.0.0",
+  "engines": {
+      "vscode": "^1.63.0"
+  },
+  "icon": "images/logo_250x250.png",
+  "categories": [
+      "Themes"
+  ],
+  "keywords": [
+    "goodbyte",
+    "Uruguay",
+    "Dark Theme",
+    "Dark",
+    "Chrome",
+    "Chrome DevTools",
+    "DevTools"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark (Chrome DevTools)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-chrome.json"
+      }
+    ]
+  }
+}
