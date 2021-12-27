@@ -13,6 +13,10 @@
   "bugs": {
     "url": "https://github.com/goodbyte/vscode-theme-chrome-devtools/issues"
   },
+  "galleryBanner": {
+    "color": "#202124",
+    "theme": "dark"
+  },
   "version": "1.0.0",
   "engines": {
       "vscode": "^1.63.0"
