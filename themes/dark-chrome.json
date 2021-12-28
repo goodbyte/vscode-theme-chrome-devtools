@@ -3,7 +3,7 @@
   "name": "Dark (Chrome DevTools)",
   "type": "dark",
   "colors": {
-    "editor.background": "#202124",
+    // "editor.background": "#202124",
     "editor.foreground": "#eeffff",
     "editor.inactiveSelectionBackground": "#3A3D41",
     "editorIndentGuide.background": "#404040",
@@ -253,7 +253,7 @@
         "variable.other.property"
       ],
       "settings": {
-        "foreground": "#D2C057"
+        "foreground": "#E5D067"
       }
     },
     {
@@ -267,7 +267,7 @@
         "variable.language.this"
       ],
       "settings": {
-        "foreground": "#9A7FD5"
+        "foreground": "#9C84CC"
       }
     },
     {

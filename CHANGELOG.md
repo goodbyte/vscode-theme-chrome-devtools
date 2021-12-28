@@ -1,9 +1,17 @@
 # Change Log
 
-All notable changes to the "goodbyte" extension will be documented in this file.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.2] - 28-12-2021
+### Changed
+- Tweaked the colors a little bit for better readability, and dropped the background color.
 
-## [Unreleased]
+## [1.0.1] - 27-12-2021
+### Changed
+- Changed Marketplace logo
+
+## [1.0.0] - 27-12-2021
 
 - Initial release
+

@@ -3,6 +3,7 @@
   "displayName": "Chrome DevTools Theme",
   "description": "Chrome DevTools inspired theme",
   "publisher": "goodbyte",
+  "license": "MIT",
   "author": {
     "name": "José Guerra"
   },
