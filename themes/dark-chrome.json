@@ -4,7 +4,7 @@
   "type": "dark",
   "colors": {
     "editor.background": "#1E1E1E",
-    "editor.foreground": "#D4D4D4",
+    "editor.foreground": "#eff",
     "editor.inactiveSelectionBackground": "#3A3D41",
     "editorIndentGuide.background": "#404040",
     "editorIndentGuide.activeBackground": "#707070",
@@ -30,7 +30,7 @@
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"foreground": "#D4D4D4"
+				"foreground": "#eff"
 			}
 		},
     {
@@ -63,15 +63,6 @@
       "settings": {
         "foreground": "#898989",
         "fontStyle": ""
-      }
-    },
-    {
-      "scope": [
-        "meta.tag.metadata.doctype.html",
-        "meta.tag.metadata.doctype.html entity.other.attribute-name.html"
-      ],
-      "settings": {
-        "foreground": "#C0C0C0"
       }
     },
     {
@@ -225,7 +216,7 @@
         "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#D4D4D4"
+        "foreground": "#eff"
       }
     },
     {
@@ -248,11 +239,8 @@
         "keyword.operator.comparison",
         "keyword.operator.optional",
         "keyword.operator.type",
-        "meta.brace.angle.ts",
         "meta.method.declaration storage.type",
-        "meta.object.member",
-        "punctuation.definition.typeparameters.begin",
-        "punctuation.definition.typeparameters.end",
+        "meta.object-literal.key",
         "storage.type.function.arrow",
         "support.function",
         "support.variable.property",
@@ -272,10 +260,13 @@
     {
       "scope": [
         "keyword",
+        "meta.brace.angle.ts",
         "meta.diff.header",
         "meta.method.declaration meta.var.expr storage.type",
         "meta.method.declaration storage.type.property",
         "punctuation.decorator",
+        "punctuation.definition.typeparameters.begin",
+        "punctuation.definition.typeparameters.end",
         "storage",
         "variable.language.this",
       ],
