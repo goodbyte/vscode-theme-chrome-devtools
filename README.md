@@ -2,7 +2,7 @@
 
 ## Preview
 
-![preview](https://user-images.githubusercontent.com/5304800/147897765-ac96d453-6b49-4d47-8bb7-31519093573f.png)
+![preview](https://user-images.githubusercontent.com/5304800/149673520-6cd1dac8-b6d3-4d02-b08f-a10c9954f807.png)
 
 ## Install
 
