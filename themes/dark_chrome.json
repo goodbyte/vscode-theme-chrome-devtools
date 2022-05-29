@@ -1,0 +1,205 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Chrome DevTools",
+  "include": "./base.json",
+  "tokenColors": [
+    {
+      "scope": [
+				"entity.name.function.preprocessor",
+        "entity.name.type",
+        "entity.other.inherited-class",
+        "keyword.operator.rest",
+        "keyword.operator.spread",
+        "meta.definition.function entity.name.function",
+        "meta.definition.variable entity.name.function",
+        "meta.parameters entity.name.function",
+        "meta.parameters keyword.operator.optional",
+        "meta.preprocessor",
+        "punctuation.section.embedded",
+        "variable",
+        // HTML, XML
+        "meta.tag",
+        //JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json",
+         // Markdown
+        "markup.heading",
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#5DB0D7"
+      }
+    },
+    {
+      "scope": [
+        // HTML, XML
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.xml",
+        "entity.other.attribute-name.localname.xml",
+        //JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#9BBBDC"
+      }
+    },
+    {
+      "scope": [
+        "meta.embedded.assembly",
+        "meta.preprocessor.string",
+        "string",
+        "string.regexp keyword",
+        "string.regexp constant",
+        "string.regexp constant.other",
+        // Markdown
+        "markup.inline.raw"
+      ],
+      "settings": {
+        "foreground": "#F29766"
+      }
+    },
+    {
+      "scope": [
+				"source.coffee.embedded",
+        // CSS
+				"variable.other.less",
+        "entity.name.tag.css",
+        "entity.other.attribute-name",
+        "entity.other.keyframe-offset",
+        "meta.property-value",
+        "meta.selector"
+      ],
+      "settings": {
+        "foreground": "#FFA34F"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "meta.property-name",
+        "support.type.property-name.media",
+        "support.type.vendored.property-name",
+        //JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#35D4C7"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.type.annotation",
+        "keyword.other.unit",
+        "meta.brace.round.ts",
+        "meta.return.type entity.name.type",
+        "meta.type.annotation entity.name.type",
+        "meta.type.parameters entity.name.type",
+        "string.template string",
+        "support.class",
+        "support.constant",
+        "variable.other.object",
+        // CSS
+        "constant.numeric.css",
+        "constant.other",
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element",
+        "keyword.operator.combinator",
+        "keyword.operator.comparison.scss",
+        "meta.property-list support.constant",
+        "punctuation.section",
+        "punctuation.separator",
+        //JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#FFFDFA"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "keyword.operator.logical.and.media",
+        "keyword.operator.logical.not.media",
+        "keyword.operator.logical.only.media",
+        "meta.at-rule.import support.constant.property-value"
+      ],
+      "settings": {
+        "foreground": "#07909A"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.relational",
+        "keyword.operator.optional",
+        "keyword.operator.type",
+        "meta.method.declaration storage.type",
+        "storage.type.function.arrow",
+        "support.function",
+        "support.variable.property",
+        "variable.object.property",
+        "variable.other.property",
+        // CSS
+        "meta.property-value keyword.operator",
+        "source.css support.function",
+        // JSON
+        "support.type.property-name.json",
+        // PYTHON
+        "meta.structure.dictionary.key.python"
+      ],
+      "settings": {
+        "foreground": "#E5CE5B"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "meta.brace.angle.ts",
+        "meta.class.ts storage.modifier.ts",
+        "meta.diff.header",
+        "meta.interface.ts storage.modifier.ts",
+        "meta.method.declaration meta.var.expr storage.type",
+        "meta.method.declaration storage.type.property",
+        "meta.type.declaration.ts storage.modifier.ts",
+        "meta.type.parameters.ts storage.modifier.ts",
+        "meta.var.expr.ts storage.modifier.ts",
+        "punctuation.definition.typeparameters.begin",
+        "punctuation.definition.typeparameters.end",
+        "storage",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "#A38ECC"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.from",
+        "keyword.control.import",
+        "meta.decorator.ts entity.name.function.ts",
+        "meta.decorator.ts variable.other.readwrite.ts",
+        "meta.decorator.ts",
+        "storage.modifier.ts",
+        "support.type.object.module"
+      ],
+      "settings": {
+        "foreground": "#C976BE"
+      }
+    },
+    {
+      "scope": [
+        "constant",
+        "meta.preprocessor.numeric",
+        //JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json",
+        // Markdown
+        "punctuation.definition.quote.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#A1F7B5"
+      }
+    }
+  ]
+}
