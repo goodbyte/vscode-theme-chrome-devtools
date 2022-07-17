@@ -1,0 +1,184 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Chrome DevTools Jet",
+  "include": "./base.json",
+  "colors": {
+    "editor.foreground": "#FFF5EE"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "entity.name.function.preprocessor",
+        "markup.bold",
+        "markup.changed",
+        "markup.heading",
+        "meta.diff.header",
+        "meta.preprocessor",
+        "meta.structure.dictionary.key.python",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.section.embedded",
+        "source.coffee.embedded",
+        "support.function.git-rebase",
+        // HTML, XML, CSS
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#35C7FF"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.quote.begin.markdown",
+        // HTML, XML, CSS
+        "entity.other.attribute-name",
+        // JS, TS
+        "entity.name.function",
+        "meta.method.declaration storage.type"
+      ],
+      "settings": {
+        "foreground": "#32EB98"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw",
+        "meta.embedded.assembly",
+        "meta.preprocessor.string",
+        //
+        "string",
+        // JS, TS
+        "string.regexp constant",
+        "string.regexp constant.other",
+        "string.regexp keyword",
+        "string.regexp keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#FFCA00"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "support.constant.media",
+        "support.type.property-name",
+        "support.type.vendored.property-name",
+      ],
+      "settings": {
+        "foreground": "#FF80AB"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "keyword.control.at-rule",
+        "keyword.operator.logical.and.media",
+        "keyword.operator.logical.not.media",
+        "keyword.operator.logical.only.media"
+      ],
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    },
+    {
+      "scope": [
+        // JS, TS
+        "keyword.operator.rest",
+        "meta.parameters entity.name.function",
+        "meta.parameters keyword.operator.optional",
+        "meta.parameters variable.language",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#FF9800"
+      }
+    },
+    {
+      "scope": [
+        "constant.sha.git-rebase",
+        "markup.inserted",
+        "meta.preprocessor.numeric",
+        //
+        "constant",
+        "storage.type.numeric"
+      ],
+      "settings": {
+        "foreground": "#A1F7B5"
+      }
+    },
+    {
+      "scope": [
+				"source.groovy.embedded",
+        "meta.embedded",
+        // CSS
+        "constant.numeric.css",
+        "keyword.operator",
+        "meta.property-value constant.other",
+        "support.function",
+        // JS, TS
+        "entity.name.type.alias",
+        "entity.name.type.class",
+        "entity.name.type.enum",
+        "entity.name.type.interface",
+        "entity.other.inherited-class",
+        "keyword.other.unit",
+        "meta.definition.function entity.name.function",
+        "meta.definition.variable entity.name.function",
+        "meta.indexer.declaration variable.parameter",
+        "punctuation.separator.key-value.css",
+        "punctuation.separator.key-value.html",
+        "string.template string",
+        "variable.other.object"
+       ],
+      "settings": {
+        "foreground": "#FFF5EE"
+      }
+    },
+    {
+      "scope": [
+        // HTML
+        "punctuation.definition.tag",
+        // JS, TS
+        "entity.name.type",
+        "meta.type.annotation punctuation.definition.parameters",
+        "meta.type.annotation storage.type.function.arrow",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "keyword.operator.alignas",
+        "keyword.operator.alignof",
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
+        "keyword.operator.cast",
+        "keyword.operator.comparison",
+        "keyword.operator.definiteassignment",
+        "keyword.operator.expression",
+        "keyword.operator.increment",
+        "keyword.operator.instanceof",
+        "keyword.operator.logical",
+        "keyword.operator.new",
+        "keyword.operator.noexcept",
+        "keyword.operator.optional",
+        "keyword.operator.relational",
+        "keyword.operator.sizeof",
+        "keyword.operator.ternary",
+        "keyword.operator.type",
+        "keyword.operator.typeid",
+        "keyword.operator.wordlike",
+        "meta.method.declaration meta.block storage.type",
+        "meta.method.declaration storage.type.property",
+        "punctuation.definition.typeparameters",
+        "storage",
+        "variable.language"
+      ],
+      "settings": {
+        "foreground": "#35C7FF"
+      }
+    }
+  ]
+}

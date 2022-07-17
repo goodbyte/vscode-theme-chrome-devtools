@@ -1,0 +1,200 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Chrome DevTools Old",
+  "include": "./base.json",
+  "colors": {
+    "editor.foreground": "#D9D9D9"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "entity.name.function.preprocessor",
+        "markup.bold",
+        "markup.changed",
+        "markup.heading",
+        "meta.diff.header",
+        "meta.preprocessor",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.section.embedded",
+        // HTML, XML
+        "entity.name.tag.html",
+        "entity.name.tag.localname.xml",
+        "entity.name.tag.xml",
+        // SCSS
+        "source.coffee.embedded",
+        // JS, TS
+        "entity.name.type.alias",
+        "entity.name.type.class",
+        "entity.name.type.enum",
+        "entity.name.type.interface",
+        "entity.other.inherited-class",
+        "keyword.operator.rest",
+        "keyword.operator.spread",
+        "meta.definition.function entity.name.function",
+        "meta.definition.variable entity.name.function",
+        "meta.parameters entity.name.function",
+        "meta.parameters keyword.operator.optional",
+        "variable",
+        "variable.parameter variable.language",
+        // JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#5DB0D7"
+      }
+    },
+    {
+      "scope": [
+        "meta.structure.dictionary.key.python",
+        "support.function.git-rebase",
+        // HTML, XML
+        "entity.other.attribute-name",
+        // JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#9BBBDC"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw",
+        "meta.embedded.assembly",
+        "meta.preprocessor.string",
+        //
+        "string",
+        // JS, TS
+        "string.regexp constant",
+        "string.regexp keyword",
+        "string.regexp keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#F29766"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "entity.name.tag",
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id",
+        "meta.at-rule variable"
+      ],
+      "settings": {
+        "foreground": "#FFA34F"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "support.constant.media",
+        "support.type.property-name",
+        "support.type.vendored.property-name",
+        // JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#35D4C7"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "keyword.operator.logical.and.media",
+        "keyword.operator.logical.not.media",
+        "keyword.operator.logical.only.media"
+      ],
+      "settings": {
+        "foreground": "#07909A"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "keyword.operator.arithmetic",
+        "keyword.operator.assignment",
+        "keyword.operator.increment",
+        "keyword.operator.optional",
+        "keyword.operator.type",
+        "meta.indexer.declaration variable.parameter",
+        "meta.method.declaration storage.type",
+        "punctuation.definition.typeparameters",
+        "support.variable.property",
+        "variable.object.property",
+        "variable.other.property",
+        // CSS
+        "meta.property-value keyword.operator",
+        "support.function",
+        // JSON
+        "meta.structure.dictionary support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#E5CE5B"
+      }
+    },
+    {
+      "scope": [
+        "constant.sha.git-rebase",
+        "markup.inserted",
+        "meta.preprocessor.numeric",
+        //
+        "constant",
+        "storage.type.numeric",
+        // JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#A1F7B5"
+      }
+    },
+    {
+      "scope": [
+				"source.groovy.embedded",
+        "meta.embedded",
+        // CSS
+        "constant.numeric.css",
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element",
+        "meta.property-value constant.other",
+        // JS, TS
+        "entity.name.type",
+        "keyword.operator",
+        "keyword.operator.type.annotation",
+        "keyword.other.unit",
+        "meta.type.annotation storage.type.function.arrow",
+        "storage.type.function.arrow",
+        "string.template string",
+        "support.type",
+        "variable.other.object",
+        // JSON
+        "meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#D9D9D9"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "keyword.operator.alignas",
+        "keyword.operator.alignof",
+        "keyword.operator.cast",
+        "keyword.operator.definiteassignment",
+        "keyword.operator.expression",
+        "keyword.operator.instanceof",
+        "keyword.operator.new",
+        "keyword.operator.noexcept",
+        "keyword.operator.sizeof",
+        "keyword.operator.typeid",
+        "keyword.operator.wordlike",
+        "meta.method.declaration meta.block storage.type",
+        "meta.method.declaration storage.type.property",
+        "storage",
+        "variable.language"
+      ],
+      "settings": {
+        "foreground": "#A38ECC"
+      }
+    }
+  ]
+}

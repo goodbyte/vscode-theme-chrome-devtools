@@ -1,0 +1,210 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Chrome DevTools",
+  "include": "./base.json",
+  "colors": {
+    "activityBar.background": "#292A2D",
+    "activityBar.border": "#494C50",
+    "activityBar.foreground": "#9AA0A6",
+    "button.background": "#202124",
+    "button.hoverBackground": "#242528",
+    "editor.background": "#202124",
+    "editor.foreground": "#D9D9D9",
+    "editor.selectionBackground": "#073D69",
+    "editorGroupHeader.tabsBackground": "#292A2D",
+    "editorLineNumber.foreground": "#8A8A8A",
+    "input.background": "#202124",
+    "input.border": "#292A2D",
+    "sideBar.background": "#202124",
+    "sideBar.border": "#494C50",
+    "tab.activeBackground": "#000",
+    "tab.hoverBackground": "#35363A",
+    "tab.border": "#292A2D",
+    "tab.inactiveBackground": "#292A2D",
+    "tab.inactiveForeground": "#9AA0A6",
+    "titleBar.activeBackground": "#292A2D",
+    "titleBar.border": "#494C50"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        // HTML
+        "meta.tag.metadata.doctype.html entity.name.tag",
+        "meta.tag.metadata.doctype.html entity.other.attribute-name",
+        "meta.tag.metadata.doctype.html punctuation",
+        "meta.tag.metadata.doctype.html string",
+        "meta.tag.metadata.doctype.html",
+        // XML
+        "meta.tag.preprocessor.xml entity.name.tag",
+        "meta.tag.preprocessor.xml entity.other.attribute-name",
+        "meta.tag.preprocessor.xml punctuation",
+        "meta.tag.preprocessor.xml string",
+        "meta.tag.preprocessor.xml"
+      ],
+      "settings": {
+        "foreground": "#DDFB55"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.preprocessor",
+        "markup.bold",
+        "markup.changed",
+        "markup.heading",
+        "meta.diff.header",
+        "meta.preprocessor",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.section.embedded",
+        // HTML, CSS
+        "entity.name.tag",
+        // CSS
+        "entity.other.attribute-name.class",
+        // SCSS
+				"source.coffee.embedded",
+        "variable.other.less",
+        "variable.scss",
+        // JS, TS
+        "entity.name.type",
+        "entity.other.inherited-class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#5DB0D7"
+      }
+    },
+    {
+      "scope": [
+        "meta.structure.dictionary.key.python",
+        "support.function.git-rebase",
+        // HTML, XML
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#9BBBDC"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw",
+        "meta.embedded.assembly",
+        "meta.preprocessor.string",
+        //
+        "string constant.character.escape",
+        "string",
+        // JS, TS
+        "string.regexp constant",
+        "string.regexp keyword",
+        "string.regexp keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#F29766"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#0055AA"
+      }
+    },
+    {
+      "scope": [
+        // CSS
+        "support.type.property-name",
+        "support.type.vendored.property-name",
+        // JS, TS
+        "entity.name.function",
+        "meta.definition.property",
+        "meta.indexer.declaration variable.parameter",
+        "meta.method.declaration storage.type",
+        "meta.object-literal.key",
+        "meta.parameter.object-binding-pattern variable.parameter",
+        "support.variable.property",
+        "variable.object.property",
+        "variable.other.enummember",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#D2C057"
+      }
+    },
+    {
+      "scope": [
+        "constant.sha.git-rebase",
+        "keyword.other.unit",
+        "markup.inserted",
+        "meta.preprocessor.numeric",
+        // CSS
+        "entity.other.attribute-name.id",
+        "meta.at-rule variable",
+        "meta.at-rule.import support.constant.property-value",
+        "meta.property-value",
+        "support.function.url",
+        "variable.parameter.misc.css",
+        // SCSS
+        "meta.property-value variable.scss",
+        // JS, TS
+        "constant",
+        "storage.type.numeric"
+      ],
+      "settings": {
+        "foreground": "#A1F7B5"
+      }
+    },
+    {
+      "scope": [
+				"source.groovy.embedded",
+        "meta.embedded",
+        // CSS
+        "entity.name.tag.wildcard",
+        "keyword.operator.combinator",
+        "keyword.operator.logical.and.media",
+        "meta.property-value punctuation.section",
+        "meta.property-value punctuation.separator",
+        "meta.selector punctuation",
+        // JS, TS
+        "keyword.operator",
+        "meta.decorator entity.name.function",
+        "meta.definition.function entity.name.function",
+        "meta.definition.variable entity.name.function",
+        "meta.parameters entity.name.function",
+        "punctuation.definition.template-expression",
+        "storage.type.function.arrow",
+        "variable",
+        "variable.parameter variable.language"
+      ],
+      "settings": {
+        "foreground": "#D9D9D9"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "keyword.operator.alignas",
+        "keyword.operator.alignof",
+        "keyword.operator.cast",
+        "keyword.operator.expression",
+        "keyword.operator.instanceof",
+        "keyword.operator.new",
+        "keyword.operator.noexcept",
+        "keyword.operator.sizeof",
+        "keyword.operator.typeid",
+        "keyword.operator.wordlike",
+        "meta.method.declaration meta.block storage.type",
+        "meta.method.declaration storage.type.property",
+        "storage",
+        "variable.language",
+        // CSS
+        "meta.at-rule entity.other",
+        "meta.property-value support.function",
+        "support.constant.media"
+      ],
+      "settings": {
+        "foreground": "#9A7FD5"
+      }
+    }
+  ]
+}

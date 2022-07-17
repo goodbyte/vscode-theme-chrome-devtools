@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/goodbyte/vscode-theme-chrome-devtools/issues"
   },
-  "version": "1.0.5",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.63.0"
   },
@@ -36,12 +36,32 @@
       {
         "label": "Chrome DevTools",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_chrome.json"
+        "path": "./themes/new.json"
       },
       {
-        "label": "Chrome DevTools Alt",
+        "label": "Chrome DevTools Old",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_alt.json"
+        "path": "./themes/old.json"
+      },
+      {
+        "label": "Chrome DevTools Nest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nest.json"
+      },
+      {
+        "label": "Chrome DevTools Monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai.json"
+      },
+      {
+        "label": "Chrome DevTools Jet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jet.json"
+      },
+      {
+        "label": "Chrome DevTools Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula.json"
       }
     ]
   }
