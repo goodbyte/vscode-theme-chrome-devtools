@@ -192,6 +192,7 @@
         "meta.method.declaration meta.block storage.type",
         "meta.method.declaration storage.type.property",
         "storage",
+        "support.type.object.module",
         "variable.language"
       ],
       "settings": {

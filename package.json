@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/goodbyte/vscode-theme-chrome-devtools/issues"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "engines": {
     "vscode": "^1.63.0"
   },

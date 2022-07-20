@@ -188,6 +188,7 @@
         "meta.method.declaration storage.type.property",
         "punctuation.definition.typeparameters",
         "storage",
+        "support.type.object.module",
         "variable.language"
       ],
       "settings": {

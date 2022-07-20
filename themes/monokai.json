@@ -191,6 +191,7 @@
         "meta.method.declaration storage.type.property",
         "punctuation.definition.typeparameters",
         "storage.type.function.arrow",
+        "support.type.object.module",
         "variable.language"
       ],
       "settings": {
