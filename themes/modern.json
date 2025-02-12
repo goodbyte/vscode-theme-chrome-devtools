@@ -32,6 +32,7 @@
     "dropdown.listBackground": "#1F1F1F",
     "editor.background": "#1F1F1F",
     "editor.findMatchBackground": "#9E6A03",
+    "editor.foreground": "#CCCCCC",
     "editorGroup.border": "#FFFFFF17",
     "editorGroupHeader.tabsBackground": "#181818",
     "editorGroupHeader.tabsBorder": "#2B2B2B",
@@ -126,5 +127,27 @@
     "welcomePage.tileBackground": "#2B2B2B",
     "welcomePage.progress.foreground": "#0078D4",
     "widget.border": "#313131"
-  }
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "meta.embedded",
+        // CSS
+        "entity.name.tag.wildcard",
+        "meta.property-list variable", // var(>--accent<)
+        "punctuation.definition.entity", // >:<root
+        "punctuation.section.function", // CSS function >()<
+        "punctuation.separator", // CSS function >,<
+        //
+        "keyword.operator",
+        "meta.function-call variable.other.object", // >console<.log()
+        "punctuation.definition.template-expression",
+        "storage.type.function.arrow",
+        "variable.other.object" // >videos<.length
+       ],
+      "settings": {
+        "foreground": "#CCCCCC"
+      }
+    }
+  ]
 }

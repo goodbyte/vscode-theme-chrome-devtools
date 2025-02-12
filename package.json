@@ -1,11 +1,11 @@
 {
   "name": "uy-chrome-devtools-theme",
   "displayName": "Chrome DevTools Theme",
-  "description": "Chrome DevTools inspired theme",
+  "description": "Chrome DevTools Color Theme",
   "publisher": "goodbyte",
   "license": "MIT",
   "author": {
-    "name": "José Guerra"
+    "name": "goodbyte"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/goodbyte/vscode-theme-chrome-devtools/issues"
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "engines": {
     "vscode": "^1.96.0"
   },
